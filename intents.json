@@ -1,0 +1,167 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": ["hello", "hey", "hi", "good day", "whatsup", "yo", "whats popping", "whats up"],
+            "responses": ["Hey! What can I do for you?", "Hey ;) How can i help you today?", "Yoo! Whats your question?"]
+        },
+        {
+            "tag": "farewell",
+            "patterns": ["bye", "goodbye", "see you later", "take care", "farewell"],
+            "responses": ["Goodbye!", "See you later!", "Take care!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thanks", "thank you", "appreciate it", "thanks a lot", "thank you very much", "ty", "thx", "Thanks for the help"],
+            "responses": ["You're welcome!", "No problem.", "Glad to help!"]
+        },
+        {
+            "tag": "apologies",
+            "patterns": ["sorry", "my apologies", "excuse me", "pardon"],
+            "responses": ["No problem.", "It's okay.", "No need to apologize."]
+        },
+        {
+            "tag": "help",
+            "patterns": ["need help pls", "need help", "what is invite generator", "can i talk to a owner", "can i talk to a staff?", "staff pls"],
+            "responses": ["Just ask me your question! If i cant help use `/staffhelp` to disable me and get help from a staff."]
+        },
+        {
+            "tag": "shop",
+            "patterns": ["could i buy a stacked val acc?", "can i buy valorant accounts", "where i can buy valorant accounts", "do you sell valorant accounts", "are you selling valorant accounts?", "sell accounts?", "sel steam ac?", "Whats your sellpass?", "whats your shop?", "can i buy nfa 1-10 account na region"],
+            "responses": ["You can buy account in our online shop! (<#1060567110130081802>)"]
+        },
+        {
+            "tag": "activ NFA",
+            "patterns": ["why do other people enter my account?", "why i get kicked of my valorant account?", "can i change the region?", "Can i change the email?", "Can i change the password", "someone is playing on the valorant account", "why do other people play on the account?", "why does the owner log in the account"],
+            "responses": ["All of our generated accounts are NFA (Non-Full Access), which means that the owner of the account still has full access which means that he can log in anytime he wants. You can check if an account is inactive or active by going into the carreer tab and check when his last match was."]
+        },
+        {
+            "tag": "NFA meaning",
+            "patterns": ["what does nfa mean?", " what is nfa", "what is this nfa thing", "what mean nfa"],
+            "responses": ["Anwser: NFA stands for **Non-Full Access** which basically means that you will not be able to access the accounts email etc."]
+        },
+        {
+            "tag": "FA meaning",
+            "patterns": ["what does fa mean?", "what is fa?", "whats fa?", "what is this fa thing?"],
+            "responses": ["FA stands for **Full Access** which basically means that you have full access to the accounts email etc. you can buy those type of accounts in our shop"]
+        },
+        {
+            "tag": "waiting owner",
+            "patterns": ["where is joshua?", "when does joshua have time?", "when does joshua have stock?", "when is joshua ready?", "How long do replacements take?"],
+            "responses": ["Please be patient, as we receive a lot of tickets that Joshua & Nico has to handle. It is very hard to answer each one in time. Thanks for your patience."]
+        },
+        {
+            "tag": "freegen scam",
+            "patterns": ["gen account doesn't work", "why does free account not work", "free gen doesn't work", "free gen doesnt work", "free gen is scam", "free gen fake", "I got no skins in free gen", "Why are there no skins in free gen?", "Why are there no skins in the free generator?", "Why doesn't my account work?", "why does my account have no skins?", "100% of valo account?"],
+            "responses": ["<#975737811581939714> & <#1021861615878017095>\nNot all free accounts work, or have skins. You just have to get lucky to get a skinned account."]
+        },
+        {
+            "tag": "invgen get",
+            "patterns": ["how can I get invite gen", "how can I get inv gen", "what is invite generator", "", "how can I get invite generator", "how can I get the 5 invites role?", "what do I need for invite generator?", "How many points do I need for invite generator?", "How many invites do I need for invite generator?", "How many points/invites do I need for invite gen?", "what is invite generator?", "i have 500 points", "what to do after i get 5 invites?"],
+            "responses": ["You can earn 500 points from our point system or get 5 invites with your own invite link and get some rewards! (<#1047935563371651124>)"]
+        },
+        {
+            "tag": "premium get",
+            "patterns": ["how can I get premium gen?", "how can I get premium generator?", "how can I get VIP gen?", "how can I get VIP generator?", "what is premium", "what is VIP", "what are the perks of premium", "what are the perks of VIP", "How much is premium gen?", "How much is VIP gen?", " how to get premium", "how can i get prem", "can I have premium?", "can I have vip?", "What is premium?"],
+            "responses": ["You can buy the premium/vip generator and see all its perks by looking at <#982433916973617233>."]
+        },
+        {
+            "tag": "2fa",
+            "patterns": ["I need a 2fa code, what do I do?", "can I get the 2fa code?", "I need 2fa", "asking for verify code", "asking for 2fa code", "account is asking for 2fa", "need email code", "generated account is asking for a code", "how do I have to do to pass the verification of the accounts", "i took a free account but it wanted a verify code", "i need to verify gmail on free valorant account from the free generator"],
+            "responses": ["Unfortunately, if an account has 2-factor-authentication, you will not be able to log in. Try generating another one! If you bought an account in our shop, create a replacement ticket."]
+        },
+        {
+            "tag": "verify",
+            "patterns": ["I can't find the verify channel", "how can I verify?", "I can't write in any channels", "how can I verify myself?", "How do i verify?", "i cant see any channels", "i need email", "need the email", "login ask for email code", "Verfy me"],
+            "responses": ["<#1060935035882049586> is where you can verify yourself. If this somehow doesn't work, use `/staffhelp`"]
+        },
+        {
+            "tag": "generators perks",
+            "patterns": ["What is the difference between all the gens?", "whats are the other generator", "wich generator is better", "difference between generator"],
+            "responses": ["You can read about our gens in <#975737811581939714>."]
+        },
+        {
+            "tag": "replacement",
+            "patterns": ["I need a replacement for an item i bought in your shop", "the account that i bought doesnt work", "I didnt get the accounts that i bought", "got scammed by the shop", "didnt get my accounts from shop", "I didn't recieve what I bought from your shop.", "I haven't received anything from Shop", "I haven't received my account", "i bought my acc yesterday, havent gotten an email yet", "I bought an account 40-50 skin does not say that the payment was not detected", "i just bought acc 30-40 skins eu and didnt get it", "i´ve been waiting 300 seconds and a bit more and still didnt get it ?", "I bought an account at 50 cents but I did not receive anything I sent the money on PayPal but no email was received for me.", "i bought a acc and  never received it on the website", "i paid for 1euro for 10 Na accunt for skin and i didnt got it", "i bought an 20-30 skins acc and i didnt recieved the acc because it says they couldnt find my payment", "the money is send but it doesn't verify the payment", "i paid and dont get my acc", "Issue with store", "so i bought a acc on your website what now"],
+            "responses": ["If you haven't already, create a **replacement** ticket in the <#975737811581939715> channel. There we can help you with Payments & Accounts problems."]
+        },
+        {
+            "tag": "invites count",
+            "patterns": ["My invites don't count, what did I do wrong?", "why the invites doesnt work", "invites doesnt count", "my invites dont counts", "why my invites dont work?"],
+            "responses": ["When it comes to inviting people, you need to make sure you have done the following to make sure they count. \n -  User has joined the server \n - The invite is a custom invite. link \n - The user hasn't left after joining. \n - You didn't create alts and invite them. \n - They didn't join again after joining through a vanity invite."]
+        },
+        {
+            "tag": "report user",
+            "patterns": ["I'd like to make a report on a user.", "how can i report a user", "report a member", "report scammer"],
+            "responses": ["Please tell us the reason you would like to do this, and provide us with additional information and proof as of why you are reporting this member."]
+        },
+        {
+            "tag": "apply staff",
+            "patterns": ["how can i get staff", "can i get staff", "how to apply", "where i can apply", "can i get staff", "what i need for staff", "how to get staff role", "How do you become staff?"],
+            "responses": ["Check <#1039627791764828282> to get Information how to apply as staff."]
+        },
+        {
+            "tag": "selling/traiding",
+            "patterns": ["can i sell accounts here", "its selling allowed", "can i trade here accounts", "its traiding allowed", "is traiding allowed", "can i get banned for traiding or selling", "can i get banned for traiding?", "can i sell my valorant account here?", "can i sell accounts that i dont need?", "can i sell accounts?"],
+            "responses": ["Traiding & Selling its not allowed on Venady and its against the venady tos (<#976913447537246279>)"]
+        },
+        {
+            "tag": "server scam",
+            "patterns": ["is this server scam", "scamm?", "venady scam?", "i think this is scam", "scammer", "how do i know your legit?"],
+            "responses": [" In the following channels (<#975737812752142350> & <#1021861615878017095>), users can post sreenshots from the accounts they have generated on this server. We also offer a channel where users can confirm that we are legit (<#982394195698384926>). We also have a large & active community so you can rest assured that we are legit!"]
+        },
+        {
+            "tag": "free accounts",
+            "patterns": ["how to get free accounts?", "can i get free account?", "how can i get a free account with skins?", "free account pls", "can i have a account for free", "how can i get an account?"],
+            "responses": ["You can generate accounts for free with our <#1051109271569444944>!"]
+        },
+        {
+            "tag": "login val account",
+            "patterns": ["how to log in to the acc", "how to login", "how to log in", "how to login to the account", "what i can do with the code from generator", "So how do I log in?"],
+            "responses": ["The format is username:password, simply enter the data in the Riot Launcher (If its valorant) and it should work"]
+        },
+        {
+            "tag": "booster perks",
+            "patterns": ["is booster gen good", "is booster worth it", "does booster have skins", "what i get for boosting the server", "booster perks?"],
+            "responses": ["With Booster you get access to the <#989626978682413086> that gives you more & better accounts! On Valorant Accounts you can choose now the region and the accounts get 1-10 skins! You can check all accounts with the command -stock. You also get access to leaks (<#981234568516489256>, <#1024328865004388413>) & private giveaways/events."]
+        },
+        {
+            "tag": "premium rate",
+            "patterns": ["is prem gen good", "is prem worth it", "does prem have skins", "is premium gen good", " is premium worth it", "does premium have skins", "do you get with premium the booster perks?"],
+            "responses": ["Yes, the Premium/VIP generator is a really good investment if you want high skinned accounts. You will probably get a skinned account almost avery time, and you even have the option to choose your own region, also you will get the booster perks."]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you", "what are you", "who created you"],
+            "responses": ["I am Vai, a Deep-Learning Support Ai based on Python created by nicotrixxel. Here is a simple example how I work: \n ```py\n import disnake \n clientIntents = disnake.Intents.default() \n clientIntents.message_content = True \n client = commands.Bot(command_prefix='!' , intents=clientIntents, help_command=None) \n @client.event \n async def on_message(message): \n    if message.content == 'hey': \n     await message.channel.send(f'Hey mate!)' \n client.run('YOURBOTTOKEN') \n ``` Check My GitHub https://github.com/nicotrixxel"]
+        },
+        {
+            "tag": "points",
+            "patterns": [
+                "how to get points?", "what are points", "how can i get points?"],
+            "responses": ["There are several ways to earn coins in our platform, including chatting with other users, completing quests, generating content, claiming your daily reward using the `/daily` command, vouching for other users, and playing casino games. Once you have accumulated enough coins, you can use them to purchase various perks and benefits listed in the <#1047935563371651124> channel."]
+        },
+        {
+            "tag": "restock",
+            "patterns": [
+                "when will invites-generator valorant accounts get re stocked", "when its restock", "restock?", "can you restock please?", "When are restocks?"],
+            "responses": ["There will most likely be a restock every 4-7 days (not 100% sure), but we will always announce it in <#975737812752142354>"]
+        },
+        {
+            "tag": "claim reward",
+            "patterns": ["how i buy invite generator?", "how can i claim my reward", "get reward", "buy invitegen", "have the requirments"],
+            "responses": ["You can get here your reward! Please use `/staffhelp` to claim your reward."]
+        },
+        {
+            "tag": "block interaction",
+            "patterns": ["how are you", "do you like ?", "whats the time", "how are you feeling", "where do you life?", "what are you doing?", "What can you do ?", "Can you code?", "Whats 1+1?"],
+            "responses": ["I'm an AI support system, which means I don't have feelings, opinions, or personal interests. My job is to give factual and unbiased information to help users with their questions. I don't have access to real-time or online data, so I can't give customized advice or make decisions based on personal circumstances. I'm here to help users quickly and accurately, and I always try to be professional and fair in my responses."]
+        },
+        {
+            "tag": "secret 1 bark",
+            "patterns": ["can you bark", "bark please", "pls bark"],
+            "responses": ["woof  woof", "ruff", "ruff", "arf, arf"]
+        }
+    ]
+}
